@@ -11,6 +11,7 @@
 package org.eclipse.collections.candykata;
 
 import org.eclipse.collections.api.bag.Bag;
+import org.eclipse.collections.api.bag.sorted.SortedBag;
 import org.eclipse.collections.api.list.MutableList;
 import org.eclipse.collections.api.set.MutableSet;
 import org.eclipse.collections.api.tuple.primitive.ObjectIntPair;
@@ -65,7 +66,12 @@ public class CandyKataSolutionsTest
 
         Bag<Candy> bigBagOfCandy = null;
 
-        String stringOfItemToCount = null;
+        bigBagOfCandy = bagsOfCandy.flatCollect(bag -> bag).toBag();
+
+        Bag<Candy> filteredCandies = bigBagOfCandy.selectByOccurrences(i -> i < 30);
+
+        SortedBag<Candy> sortedCandies = filteredCandies.toSortedBag();
+        String stringOfItemToCount = sortedCandies.toStringOfItemToCount();
 
         var expected = "{WHOPPERS=28, TWIX=26, NERDS=28, HERSHEYS_KISSES=24, SWEDISH_FISH=26}";
         Assertions.assertEquals(expected, stringOfItemToCount);
