@@ -57,8 +57,8 @@ public class CandyKataSolutionsTest
         Assertions.assertEquals(expectedSet, commonInTop10);
     }
 
-//    @Test
-//    @Tag("SOLUTION")
+    @Test
+    @Tag("SOLUTION")
     public void lessThan30()
     {
         MutableList<Bag<Candy>> bagsOfCandy = this.collectBagsOfCandy();

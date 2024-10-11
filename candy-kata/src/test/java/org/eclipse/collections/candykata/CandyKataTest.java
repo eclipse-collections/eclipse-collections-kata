@@ -16,10 +16,13 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 import java.time.ZoneId;
+import java.util.Collection;
 import java.util.Random;
 import java.util.stream.IntStream;
 
 import org.eclipse.collections.api.bag.Bag;
+import org.eclipse.collections.api.bag.sorted.SortedBag;
+import org.eclipse.collections.api.factory.Bags;
 import org.eclipse.collections.api.list.MutableList;
 import org.eclipse.collections.api.set.MutableSet;
 import org.eclipse.collections.api.tuple.primitive.ObjectIntPair;
@@ -70,17 +73,22 @@ public class CandyKataTest
         // Hint: Flatten the Bags of Candy into a single Bag
         Bag<Candy> bigBagOfCandy = null;
 
+        bigBagOfCandy = bagsOfCandy.flatCollect(bag -> bag).toBag();
+
         // Find candies that are less than 30 in number in the big bag of candy and
         // convert them to a string with its item count like so: "{WHOPPERS=28}
+        Bag<Candy> filteredCandies = bigBagOfCandy.selectByOccurrences(i -> i < 30);
+        
         // Hint: use Bag#toStringOfItemToCount() and sort the items in the bag
+        SortedBag<Candy> sortedCandies = filteredCandies.toSortedBag();
+        String stringOfItemToCount = sortedCandies.toStringOfItemToCount();
+
         // before converting them to a string
         // Uncomment the @Test and @Solution annotations before running the test
-
-        String stringOfItemToCount = null;
-
         var expected = "{WHOPPERS=28, TWIX=26, NERDS=28, HERSHEYS_KISSES=24, SWEDISH_FISH=26}";
         Assertions.assertEquals(expected, stringOfItemToCount);
     }
+    
 
     private MutableList<Bag<Candy>> collectBagsOfCandy()
     {
