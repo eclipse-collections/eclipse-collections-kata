@@ -95,7 +95,7 @@ decisions that went into making Eclipse Collections and guiding its evolution fr
 The content of the presentation is also available in a convenient to read [markdown format](https://github.com/eclipse/eclipse-collections-kata/blob/master/docs/api-design/slides.md). 
 
 [actions]:https://github.com/eclipse/eclipse-collections-kata/actions?query=workflow%3A%22Eclipse+Collections+Kata+CI+Build%22
-[actions img]:https://github.com/eclipse/eclipse-collections-kata/workflows/Eclipse%20Collections%20Kata%20CI%20Build/badge.svg?branch=master
+[actions img]:https://github.com/eclipse-collections/eclipse-collections-kata/actions/workflows/maven.yml/badge.svg
 
 [actions-solutions]:https://github.com/eclipse/eclipse-collections-kata/actions?query=workflow%3A%22Eclipse+Collections+Kata+Solutions+CI+Build%22
 [actions-solutions img]:https://github.com/eclipse/eclipse-collections-kata/actions/workflows/solutions.yml/badge.svg?branch=master
