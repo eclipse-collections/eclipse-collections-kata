@@ -21,13 +21,13 @@ import org.junit.jupiter.api.Tag;
 public class Exercise2Test
 {
     /**
-     * Follow <a href="https://github.com/eclipse/eclipse-collections/blob/master/docs/jackson.md#jackson">
+     * Follow <a href="https://github.com/eclipse-collections/eclipse-collections/blob/master/docs/jackson.md#jackson">
      * Object Mapper config instructions</a>
      * to enable Eclipse Collections Jackson serialization support in
      * {@link ObjectMapperUtils#createObjectMapperWithEclipseCollectionsSupport()}
      * <br>
      * <br>
-     * Follow <a href="https://github.com/eclipse/eclipse-collections/blob/master/docs/jackson.md#jackson">
+     * Follow <a href="https://github.com/eclipse-collections/eclipse-collections/blob/master/docs/jackson.md#jackson">
      * JsonProperty documentation</a> to mark attributes pets, petsByAge and petsByType of class {@link Person}
      * as @JsonProperty to enable proper serialization.
      */

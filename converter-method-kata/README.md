@@ -8,7 +8,7 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Converter Method Kata?**
-The Converter Method Kata is a basic Code Kata with a set of exercises that a developer can complete to familiarize themselves with the converter method APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections).
+The Converter Method Kata is a basic Code Kata with a set of exercises that a developer can complete to familiarize themselves with the converter method APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections).
 
 Converter methods are methods that allow you to convert from one collection type to another. For example, if you have a `MutableList` and want to convert it to a `MutableSet`, you can use the `toSet()` method. Converter methods are available for both object and primitive collections, and there is support for `Collector` implementations on `Collectors2` for converting from JDK types to Eclipse Collections types. Methods that are prefixed with "to" in Eclipse Collections will always create a new copy of the contents in the target type.
 

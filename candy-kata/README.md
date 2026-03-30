@@ -8,11 +8,11 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Candy Kata?**
-The Candy Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with many of the APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections).
+The Candy Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with many of the APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections).
 
 The domain of the Candy Kata includes the `Candy` and `SchoolGroup` classes.
 
-<a href="https://eclipse.github.io/eclipse-collections-kata/candy-kata/#/1"><img src="https://github.com/eclipse/eclipse-collections-kata/blob/master/docs/candy-kata/candy-domain.png" height="50%" width="50%"></a>
+<a href="https://eclipse.github.io/eclipse-collections-kata/candy-kata/#/1"><img src="https://github.com/eclipse-collections/eclipse-collections-kata/blob/master/docs/candy-kata/candy-domain.png" height="50%" width="50%"></a>
 
 # Getting Started
 

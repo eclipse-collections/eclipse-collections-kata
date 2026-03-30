@@ -8,11 +8,11 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Company Kata?**
-The Company Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with many of the APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections).
+The Company Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with many of the APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections).
 
 The domain of the Company Kata includes the `Company`, `Customer`, `Order`, `LineItem` and `Supplier` classes.
 
-<a href="http://eclipse.github.io/eclipse-collections-kata/company-kata/#/1/15"><img src="https://github.com/eclipse/eclipse-collections-kata/blob/master/docs/company-kata/company-domain.png" height="50%" width="50%"></a>
+<a href="http://eclipse.github.io/eclipse-collections-kata/company-kata/#/1/15"><img src="https://github.com/eclipse-collections/eclipse-collections-kata/blob/master/docs/company-kata/company-domain.png" height="50%" width="50%"></a>
 
 # Getting Started
 

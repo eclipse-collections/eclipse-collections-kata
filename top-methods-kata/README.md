@@ -8,7 +8,7 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Top Methods Kata?**
-The Tops Methods Kata is a simple Code Kata with a set of tests that a developer can complete to quickly familiarize themselves with the top 25 methods available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections). The kata was first shared as a blog [here](https://medium.com/javarevisited/my-25-favorite-eclipse-collections-apis-a51589ee5c4a?source=friends_link&sk=4376b5fd10ccefe47c4f56905cc89846).
+The Tops Methods Kata is a simple Code Kata with a set of tests that a developer can complete to quickly familiarize themselves with the top 25 methods available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections). The kata was first shared as a blog [here](https://medium.com/javarevisited/my-25-favorite-eclipse-collections-apis-a51589ee5c4a?source=friends_link&sk=4376b5fd10ccefe47c4f56905cc89846).
 
 The top 25 methods that can be learned in this kata are:
 

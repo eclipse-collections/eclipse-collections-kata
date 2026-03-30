@@ -8,7 +8,7 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Wordle Kata?**
-The Wordle Kata is an advanced Code Kata with a set exercises that a developer can complete to familiarize themselves with the String APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections), as well as the chars() method available on the String class for the JDK section of the kata.
+The Wordle Kata is an advanced Code Kata with a set exercises that a developer can complete to familiarize themselves with the String APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections), as well as the chars() method available on the String class for the JDK section of the kata.
 
 The domain of the Wordle Kata includes the `WordleEC` and `WordleJDK` classes. The kata uses advanced features like Java Records which are available in JDK 17.
 

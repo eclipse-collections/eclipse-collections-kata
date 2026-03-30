@@ -23,13 +23,11 @@
         <module name="converter-method-kata" />
         <module name="converter-method-kata-solutions" />
         <module name="haiku-kata" />
-        <module name="record-kata-solutions" />
         <module name="jackson-kata-solutions" />
-        <module name="record-kata" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eclipse-collections-kata" target="11" />
+      <module name="eclipse-collections-kata" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
