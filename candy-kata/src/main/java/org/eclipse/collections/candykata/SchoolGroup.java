@@ -10,6 +10,7 @@
 
 package org.eclipse.collections.candykata;
 
+import java.security.SecureRandom;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -60,8 +61,7 @@ public class SchoolGroup
 
     public Bag<Candy> trickOrTreat()
     {
-        IntStream limit = new Random(
-                this.time.atZone(NEW_YORK).toEpochSecond())
+        IntStream limit = new SecureRandom()
                 .ints(0, Candy.values().length - 1)
                 .limit(this.candyCount);
         return limit.mapToObj(i -> Candy.values()[i])
