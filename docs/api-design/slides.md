@@ -82,7 +82,7 @@ Design Goals
 
 Eclipse Collections Today
 -------------------------
-* [Open for contribution](https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md) at the Eclipse Foundation
+* [Open for contribution](https://github.com/eclipse-collections/eclipse-collections/blob/master/CONTRIBUTING.md) at the Eclipse Foundation
 * Symmetry drives the design
 * Interoperability w/ Java 8 and Java 9
 
@@ -653,7 +653,7 @@ The Past
   * [7 Major Releases](https://github.com/goldmansachs/gs-collections/releases) 
 * Java 8 - Lambdas (2014)
 * Eclipse Collections (2015) 
-  * [3 Major Releases](https://github.com/eclipse/eclipse-collections/releases) 
+  * [3 Major Releases](https://github.com/eclipse-collections/eclipse-collections/releases) 
 
 
 The Future

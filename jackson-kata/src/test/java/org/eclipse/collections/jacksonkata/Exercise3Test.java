@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Tag;
 public class Exercise3Test
 {
     /**
-     * Follow <a href="https://github.com/eclipse/eclipse-collections/blob/master/docs/jackson.md#serializing-directly">
+     * Follow <a href="https://github.com/eclipse-collections/eclipse-collections/blob/master/docs/jackson.md#serializing-directly">
      * Serializing directly instructions</a> to specify a proper type reference on line 42.
      * Pay special attention to the text in bold.
      * @throws JsonProcessingException
@@ -44,7 +44,7 @@ public class Exercise3Test
     }
 
     /**
-     * Follow <a href="https://github.com/eclipse/eclipse-collections/blob/master/docs/jackson.md#serializing-directly">
+     * Follow <a href="https://github.com/eclipse-collections/eclipse-collections/blob/master/docs/jackson.md#serializing-directly">
      * Serializing directly instructions</a> to specify a proper type reference on line 64.
      * Pay special attention to the text in bold.
      * @throws JsonProcessingException

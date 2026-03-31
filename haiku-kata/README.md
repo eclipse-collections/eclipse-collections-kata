@@ -8,7 +8,7 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Haiku Kata?**
-The Haiku Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with the String APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections), as well as the chars() method available on the String class for the JDK section of the kata.
+The Haiku Kata is an intermediate Code Kata with a set exercises that a developer can complete to familiarize themselves with the String APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections), as well as the chars() method available on the String class for the JDK section of the kata.
 
 The domain of the Haiku Kata includes the `HaikuCollection`, `TextProcessorEC`, and `TextProcessorJDK` classes. The kata uses advanced features like Java Text Blocks, Java Records, and Switch Expressions which are available in JDK 17.
 

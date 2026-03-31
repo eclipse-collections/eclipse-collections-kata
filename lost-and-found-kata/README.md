@@ -8,7 +8,7 @@
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
 # **What is the Lost and Found Kata?**
-The Lost and Found Kata is an advanced Code Kata with a set exercises that a developer can complete to familiarize themselves with a broad set of the data structures and APIs available in [Eclipse Collections](https://github.com/eclipse/eclipse-collections), many of which will have no equivalent in the JDK today. The target audience for this kata are contributors who are looking to learn Eclipse Collections in depth and potentially become committers on the library.
+The Lost and Found Kata is an advanced Code Kata with a set exercises that a developer can complete to familiarize themselves with a broad set of the data structures and APIs available in [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections), many of which will have no equivalent in the JDK today. The target audience for this kata are contributors who are looking to learn Eclipse Collections in depth and potentially become committers on the library.
 
 There are three sections to the kata. Each section was covered in depth in a separate blog that was part of a three part blog series.
 

@@ -128,7 +128,7 @@ Exercise 1
 
 
 
-[Exercise 1 solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise1Test.java)
+[Exercise 1 solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise1Test.java)
 ====================
 
 * **down:** Exercise 1 solutions
@@ -354,7 +354,7 @@ Exercise 2
 
 
 
-[Exercise 2 solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise2Test.java)
+[Exercise 2 solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise2Test.java)
 ====================
 
 * **down:** Exercise 2 solutions
@@ -776,7 +776,7 @@ Exercise 3
 
 
 
-[Exercise 3 solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise3Test.java)
+[Exercise 3 solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise3Test.java)
 ====================
 
 * **down:** Exercise 3 solutions
@@ -894,7 +894,7 @@ Exercise 4
 
 
 
-[Exercise 4 solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise4Test.java)
+[Exercise 4 solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise4Test.java)
 ====================
 
 * **down:** Exercise 4 solutions
@@ -1093,7 +1093,7 @@ public void addPetAgesToExistingSet()
 
 
 
-[Exercise 5 solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise5Test.java)
+[Exercise 5 solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata/Exercise5Test.java)
 ====================
 
 

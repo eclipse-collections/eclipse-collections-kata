@@ -7,14 +7,14 @@ If this is your first time contributing to an Eclipse Foundation project, you'll
 - Use the exact same email address for your Eclipse account and your commit author.
 
 ## Issues
-Search the [issue tracker](https://github.com/eclipse/eclipse-collections-kata/issues) for a relevant issue or create a new one.
+Search the [issue tracker](https://github.com/eclipse-collections/eclipse-collections-kata/issues) for a relevant issue or create a new one.
 Comment on the issue expressing your interest to work on it. One of the project maintainers will assign the issue to you. 
 
 ## Making changes
 * Fork the repository in GitHub and make changes in your fork. 
 * Submit a pull request.
 
-Details on [working with GitHub for Eclipse Collections](https://github.com/eclipse/eclipse-collections/wiki/Working-with-GitHub) is located at the Eclipse Collections Wiki.
+Details on [working with GitHub for Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections/wiki/Working-with-GitHub) is located at the Eclipse Collections Wiki.
 
 ## Contact us
 [Join the mailing list][mailing-list] and email the community at collections-dev@eclipse.org to discuss your ideas and get help.
@@ -49,7 +49,7 @@ That's it! Thanks for contributing to the Eclipse Collections Kata!
 [ECA]:             https://www.eclipse.org/legal/ECA.php
 [style-guide]:     https://google.github.io/styleguide/javaguide.html
 [rebase]:          https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
-[github]:          https://github.com/eclipse/eclipse-collections/actions
+[github]:          https://github.com/eclipse-collections/eclipse-collections/actions
 [imperative-mood]: https://github.com/git/git/blob/master/Documentation/SubmittingPatches
 [github-issue]:    https://help.github.com/articles/closing-issues-via-commit-messages/
 [mailing-list]:    https://dev.eclipse.org/mailman/listinfo/collections-dev

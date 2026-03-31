@@ -45,7 +45,7 @@ Learning by exercises
 
 
 ## Set-up Eclipse Collections Kata
- * Clone [Eclipse Collections repo](https://github.com/eclipse/eclipse-collections-kata) or simply download [master zip file](https://github.com/eclipse/eclipse-collections-kata/archive/master.zip) and extract
+ * Clone [Eclipse Collections repo](https://github.com/eclipse-collections/eclipse-collections-kata) or simply download [master zip file](https://github.com/eclipse-collections/eclipse-collections-kata/archive/master.zip) and extract
  * Open your IDE and import the cloned or downloaded project as a maven project.
  * Run tests under
 

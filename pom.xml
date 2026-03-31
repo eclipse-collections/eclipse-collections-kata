@@ -20,14 +20,14 @@
 
     <packaging>pom</packaging>
 
-    <name>Eclipse Collections Kata JDK11 modules</name>
+    <name>Eclipse Collections Kata modules</name>
 
     <description>The Eclipse Collections Katas are a fun way to help you learn idiomatic Eclipse Collections usage.
         This particular kata is set up as a series of unit tests which fail. Your task is to make them pass, using
         Eclipse Collections.
     </description>
 
-    <url>https://github.com/eclipse/eclipse-collections-kata</url>
+    <url>https://github.com/eclipse-collections/eclipse-collections-kata</url>
 
     <inceptionYear>2007</inceptionYear>
 
@@ -45,9 +45,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/eclipse/eclipse-collections-kata</url>
-        <connection>scm:git:https://github.com/eclipse/eclipse-collections-kata.git</connection>
-        <developerConnection>scm:git:https://github.com/eclipse/eclipse-collections-kata.git</developerConnection>
+        <url>https://github.com/eclipse-collections/eclipse-collections-kata</url>
+        <connection>scm:git:https://github.com/eclipse-collections/eclipse-collections-kata.git</connection>
+        <developerConnection>scm:git:https://github.com/eclipse-collections/eclipse-collections-kata.git</developerConnection>
     </scm>
 
     <developers>
@@ -92,17 +92,21 @@
         <module>lost-and-found-kata-solutions</module>
         <module>jackson-kata</module>
         <module>jackson-kata-solutions</module>
+        <module>haiku-kata</module>
+        <module>haiku-kata-solutions</module>
+        <module>wordle-kata</module>
+        <module>wordle-kata-solutions</module>
     </modules>
 
     <properties>
-        <eclipse.collections.version>12.0.0</eclipse.collections.version>
-        <junit5.version>5.13.3</junit5.version>
-        <jackson.version>2.19.1</jackson.version>
+        <eclipse.collections.version>13.0.0</eclipse.collections.version>
+        <junit5.version>5.14.3</junit5.version>
+        <jackson.version>2.21.2</jackson.version>
         <jol.version>0.17</jol.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.fork>true</maven.compiler.fork>
         <maven.compiler.verbose>true</maven.compiler.verbose>
         <maven.compiler.meminitial>2048m</maven.compiler.meminitial>

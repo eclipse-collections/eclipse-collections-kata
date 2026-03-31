@@ -314,7 +314,7 @@ Exercise 1
 
 
 
-[Exercise 1 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise1Test.java)
+[Exercise 1 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise1Test.java)
 ====================
 
 
@@ -712,7 +712,7 @@ Exercise 2
 
 
 
-[Exercise 2 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise2Test.java)
+[Exercise 2 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise2Test.java)
 ====================
 
 
@@ -855,7 +855,7 @@ Exercise 3
 
 
 
-[Exercise 3 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise3Test.java) 
+[Exercise 3 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise3Test.java) 
 ====================
 
 
@@ -1010,7 +1010,7 @@ Exercise 4
 
 
 
-[Exercise 4 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise4Test.java)
+[Exercise 4 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise4Test.java)
 ====================
 
 
@@ -1130,7 +1130,7 @@ Exercise 5
 
 
 
-[Exercise 5 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise5Test.java)
+[Exercise 5 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise5Test.java)
 ====================
 
 
@@ -1320,7 +1320,7 @@ Exercise 6
 
 
 
-[Exercise 6 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise6Test.java)
+[Exercise 6 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise6Test.java)
 ====================
 
 
@@ -1775,7 +1775,7 @@ breaking anything.
 
 
 
-[Exercise 7 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise7Test.java)
+[Exercise 7 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise7Test.java)
 ====================
 
 
@@ -2226,7 +2226,7 @@ Kata Exercise 8
 
 
 
-[Exercise 8 Solutions](https://github.com/eclipse/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise8Test.java)
+[Exercise 8 Solutions](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/company-kata-solutions/src/test/java/org/eclipse/collections/companykata/Exercise8Test.java)
 ====================
 
 
