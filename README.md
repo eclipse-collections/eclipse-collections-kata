@@ -64,10 +64,10 @@ There are nine separate Java katas under different directories:
 8. [Haiku Kata](haiku-kata)
 9. [Wordle Kata](wordle-kata)
 
-To get started, you can refer to slides for the [Instruction and Pet Kata](http://eclipse.github.io/eclipse-collections-kata/) to learn how to set-up Kata, basic features of Eclipse Collections corresponding to each Pet Kata exercise and then solutions. 
+To get started, you can refer to slides for the [Instruction and Pet Kata](https://eclipse-collections.github.io/eclipse-collections-kata/pet-kata/#/) to learn how to set-up Kata, basic features of Eclipse Collections corresponding to each Pet Kata exercise and then solutions. 
 Check out the [pet kata solutions module tests](https://github.com/eclipse-collections/eclipse-collections-kata/tree/master/pet-kata-solutions/src/test/java/org/eclipse/collections/petkata) for your reference.
 
-To learn wider range of functionalities, slides for [Company Kata](http://eclipse.github.io/eclipse-collections-kata/company-kata) are now available online as well. 
+To learn wider range of functionalities, slides for [Company Kata](https://eclipse-collections.github.io/eclipse-collections-kata/company-kata/#/) are now available online as well. 
 
 To learn more about the Bag data structure, take a look at the [Candy Kata](candy-kata).
 
