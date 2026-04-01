@@ -940,12 +940,31 @@ public void getAgeStatisticsOfPets()
 }
 ```
 
+Bob Smith's Pet Names as String
+--------------------------
+```java
+@Test
+public void bobSmithsPetNamesAsString()
+{
+    //find Bob Smith
+    Person person = this.people
+    .detect(each -> each.named("Bob Smith"));
+    
+    //get Bob Smith's pets' names
+    String names = person.getPets()
+    .collect(Pet::getName)
+    .makeString(" & ");
+    
+    Assertions.assertEquals("Dolly & Spot", names);
+}
+```
 
-Stream to EC refactor #1
+
+Bob Smith's Pet Names as String
 ------------------------
 ```java
 @Test
-public void streamsToECRefactor1()
+public void bobSmithsPetNamesAsString()
 {
   // Find Bob Smith
   Person person = this.people.detect(each -> each.named("Bob Smith"));
@@ -960,33 +979,29 @@ public void streamsToECRefactor1()
 ```
 
 
-Stream to EC refactor #2
-------------------------
+Immutable Pet Counts by Emoji
+--------------------------
 ```java
 @Test
-public void streamsToECRefactor2()
+public void immutablePetCountsByEmoji()
 {
-  // Hint: Try to replace the Map<PetType, Long> with a Bag<PetType>
-  MutableBag<PetType> petTypes = this.people
-    .asUnmodifiable()
-    .flatCollect(Person::getPets)
-    .countBy(Pet::getType);
-
-  Assertions.assertEquals(2, petTypes.occurrencesOf(PetType.CAT));
-  Assertions.assertEquals(2, petTypes.occurrencesOf(PetType.DOG));
-  Assertions.assertEquals(2, petTypes.occurrencesOf(PetType.HAMSTER));
-  Assertions.assertEquals(1, petTypes.occurrencesOf(PetType.SNAKE));
-  Assertions.assertEquals(1, petTypes.occurrencesOf(PetType.TURTLE));
-  Assertions.assertEquals(1, petTypes.occurrencesOf(PetType.BIRD));
+    // Hint: Try to replace the immutable Map<String, Long> with an ImmutableBag<String>
+    ImmutableBag<String> countsByEmoji = Bags.immutable.withAll(
+            this.people.flatCollect(Person::getPetTypes).countBy(PetType::toString)
+    );
+    Assertions.assertEquals(
+    Bags.immutable.of("🐱", "🐱", "🐶", "🐶", "🐹", "🐹", "🐍", "🐢", "🐦"),
+    countsByEmoji
+    );
 }
 ```
 
 
-Stream to EC refactor #3
+Top Three Pets
 ------------------------
 ```java
 @Test
-public void streamsToECRefactor3()
+public void topThreePets()
 {
   // Hint: The result of groupingBy/counting can almost always be replaced by a Bag
   // Hint: Look for the API on Bag that might return the top 3 pet types

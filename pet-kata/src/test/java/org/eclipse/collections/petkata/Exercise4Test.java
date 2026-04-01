@@ -140,7 +140,7 @@ public class Exercise4Test extends PetDomainForKata
                         .collect(Collectors.groupingBy(pet -> pet.getType().toString(), Collectors.counting())));
 
         Assertions.assertEquals(
-                Map.of("🐱", 2L, "🐶", 2L, "🐹", 2L, "🐍", 1L, "🐢", 1L, "🐦", 1L),
+                Bags.immutable.of("🐱", "🐱", "🐶", "🐶", "🐹", "🐹", "🐍", "🐢", "🐦"),
                 countsByEmoji
         );
     }
