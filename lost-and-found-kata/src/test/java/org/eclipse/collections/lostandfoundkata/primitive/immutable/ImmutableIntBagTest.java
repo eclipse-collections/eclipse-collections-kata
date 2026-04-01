@@ -340,11 +340,11 @@ public class ImmutableIntBagTest
     public void occurrencesOf()
     {
         // Find the occurrencesOf 1 in this.bag
-        Assert.assertEquals(1, this.bag.occurrencesOf(0));
+        Assertions.assertEquals(1, this.bag.occurrencesOf(0));
         // Find the occurrencesOf 2 in this.bag
-        Assert.assertEquals(2, this.bag.occurrencesOf(0));
+        Assertions.assertEquals(2, this.bag.occurrencesOf(0));
         // Find the occurrencesOf 3 in this.bag
-        Assert.assertEquals(3, this.bag.occurrencesOf(0));
+        Assertions.assertEquals(3, this.bag.occurrencesOf(0));
     }
 
     @Test
